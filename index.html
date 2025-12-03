@@ -1,136 +1,149 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alanys Michelle - Portafolio de Proyectos</title>
-    
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #ffe0f0; /* Fondo: Rosa muy claro */
-            color: #4a4a4a;
-            margin: 0;
-            padding: 40px 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 8px 16px rgba(255, 105, 180, 0.2);
-            text-align: left; /* Alineamos el contenido a la izquierda para mejor lectura */
-        }
-        h1 {
-            color: #ff69b4; /* Título principal: Hot Pink */
-            margin-bottom: 10px;
-            font-size: 2.5em;
-            text-align: center;
-        }
-        h2 {
-            color: #d81b60; /* Subtítulo: Rosa oscuro/magenta */
-            border-bottom: 2px solid #f48fb1;
-            padding-bottom: 8px;
-            margin-top: 30px;
-        }
-        .emoji {
-            font-size: 2.5em;
-            text-align: center;
-            display: block;
-        }
-        .project-link {
-            display: inline-block;
-            background-color: #28a745; /* Botón verde para proyectos (contraste) */
-            color: white;
-            padding: 8px 15px;
-            border-radius: 5px;
-            margin: 10px 10px 10px 0;
-            text-decoration: none;
-            transition: background-color 0.3s;
-        }
-        .project-link:hover {
-            background-color: #218838;
-        }
-        /* CLASE ELIMINADA: La clase .repo-link ya no se usa, pero la mantengo aquí para no modificar el CSS original. */
-        .repo-link {
-            color: #17a2b8; /* Enlace al repositorio en azul/cian */
-            margin-left: 10px;
-            font-weight: normal;
-        }
-        
-        ul {
-            list-style-type: disc; /* Usamos puntos para listas */
-            padding-left: 20px;
-        }
-        hr {
-            border: 0;
-            height: 1px;
-            background-color: #f48fb1;
-            margin: 20px 0;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alanys Michelle - Portafolio de Proyectos</title>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffe0f0; /* Fondo: Rosa muy claro */
+            color: #4a4a4a;
+            margin: 0;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(255, 105, 180, 0.2);
+            text-align: left; /* Alineamos el contenido a la izquierda para mejor lectura */
+        }
+        h1 {
+            color: #ff69b4; /* Título principal: Hot Pink */
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            text-align: center;
+        }
+        h2 {
+            color: #d81b60; /* Subtítulo: Rosa oscuro/magenta */
+            border-bottom: 2px solid #f48fb1;
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+        .emoji {
+            font-size: 2.5em;
+            text-align: center;
+            display: block;
+        }
+        .project-link {
+            display: inline-block;
+            background-color: #28a745; /* Botón verde para proyectos (contraste) */
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin: 10px 10px 10px 0;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .project-link:hover {
+            background-color: #218838;
+        }
+        /* CLASE ELIMINADA: La clase .repo-link ya no se usa, pero la mantengo aquí para no modificar el CSS original. */
+        .repo-link {
+            color: #17a2b8; /* Enlace al repositorio en azul/cian */
+            margin-left: 10px;
+            font-weight: normal;
+        }
+        
+        ul {
+            list-style-type: disc; /* Usamos puntos para listas */
+            padding-left: 20px;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #f48fb1;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <p class="emoji">🌸</p>
-        <h1>¡Hola! Soy ALANYS ORTEGA </h1>
+    <div class="container">
+        <p class="emoji">🌸</p>
+        <h1>¡Hola! Soy ALANYS ORTEGA </h1>
 
-        <h2>Acerca de Mí</h2>
-        <p>Soy estudiante de Ingeniería Biomédica, mi pasión se centra en la electrónica y la intersección de la tecnología y la salud. Actualmente, estoy explorando el mundo del Machine Learning y el desarrollo web para crear soluciones innovadoras en el ámbito de la ciencia de datos.</p>
-        
-        <h2>💻 Proyectos Destacados (Machine Learning)</h2>
-        
-        <h3>1. Predicción de Costos de Seguros Médicos 🏥</h3>
-        <p>Proyecto completo de regresión basado en Random Forest (R² del 85.74%). El objetivo fue predecir el gasto médico individual y justificar el modelo con métricas de negocio (RMSE).</p>
-        
-        <a href="https://xoqkybvbyltjtsfpr3qqyf.streamlit.app/" target="_blank" class="project-link">
-            🚀 Ver Aplicación Web (Demo)
-        </a>
-        <a href="https://github.com/alanysmichelle812-commits/Seguro_Medico_Analisis" target="_blank" class="project-link" style="background-color: #17a2b8;">
-            Ver Código en GitHub
-        </a>
-        
-        <hr>
+        <h2>Acerca de Mí</h2>
+        <p>Soy estudiante de Ingeniería Biomédica, mi pasión se centra en la electrónica y la intersección de la tecnología y la salud. Actualmente, estoy explorando el mundo del Machine Learning y el desarrollo web para crear soluciones innovadoras en el ámbito de la ciencia de datos.</p>
+        
+        <h2>💻 Proyectos Destacados (Machine Learning)</h2>
+        
+        <h3>1. Predicción de Costos de Seguros Médicos 🏥</h3>
+        <p>Proyecto completo de regresión basado en Random Forest (R² del 85.74%). El objetivo fue predecir el gasto médico individual y justificar el modelo con métricas de negocio (RMSE).</p>
+        
+        <a href="https://xoqkybvbyltjtsfpr3qqyf.streamlit.app/" target="_blank" class="project-link">
+            🚀 Ver Aplicación Web (Demo)
+        </a>
+        <a href="https://github.com/alanysmichelle812-commits/Seguro_Medico_Analisis" target="_blank" class="project-link" style="background-color: #17a2b8;">
+            Ver Código en GitHub
+        </a>
+        
+        <hr>
 
-        <h3>2. Análisis de Patrones de Sueño 😴</h3>
-        <p>Análisis de datos para identificar patrones y correlaciones en hábitos de sueño, estrés y calidad de vida.</p>
-        
-        <a href="https://c7pysksxsjg2gehq69ncug.streamlit.app/" target="_blank" class="project-link" style="background-color: #f39c12;">
-            🚀 Ver Aplicación Web (Demo)
-        </a>
-        
-        <a href="https://github.com/alanysmichelle812-commits/Analisis_Patrones_Sueno" target="_blank" class="project-link" style="background-color: #8A2BE2;">
-            Ver Código en GitHub
-        </a>
-        
-        <hr>
+        <h3>2. Análisis de Patrones de Sueño 😴</h3>
+        <p>Análisis de datos para identificar patrones y correlaciones en hábitos de sueño, estrés y calidad de vida.</p>
+        
+        <a href="https://c7pysksxsjg2gehq69ncug.streamlit.app/" target="_blank" class="project-link" style="background-color: #f39c12;">
+            🚀 Ver Aplicación Web (Demo)
+        </a>
+        
+        <a href="https://github.com/alanysmichelle812-commits/Analisis_Patrones_Sueno" target="_blank" class="project-link" style="background-color: #8A2BE2;">
+            Ver Código en GitHub
+        </a>
+        
+        <hr>
 
-        <h3>3. Clasificador de Riesgo en Salud Mental 🧠</h3>
-        <p>Proyecto de Clustering (K-Means) para segmentar países en grupos de riesgo basados en tasas de suicidio y probabilidad de muerte por enfermedades crónicas, creando un clasificador para toma de decisiones médicas.</p>
-        
-        <a href="https://spuhuvkb2cayykd4jhdten.streamlit.app/" target="_blank" class="project-link" style="background-color: #d81b60;">
-            🚀 Ver Aplicación Web (Clasificador)
-        </a>
-        
-        <a href="https://github.com/alanysmichelle812-commits/Analisis_Salud_Mental/tree/main" target="_blank" class="project-link" style="background-color: #4a4a4a;">
-            Ver Código y Modelos en GitHub
-        </a>
-        
-        <hr>
-        <h2> Habilidades Clave y en progreso</h2>
-        <ul>
-            <li>Machine Learning: Scikit-learn, Random Forest, Regresión, Clasificación, Clustering (K-Means).</li>
-            <li>Análisis de Datos:Python, Pandas, NumPy, EDA.</li>
-            <li>Desarrollo: Streamlit, GitHub Pages, HTML, CSS.</li>
-        </ul>
-        
-        <h2> Contacto</h2>
-        <p>Puedes seguir mi progreso y contactarme a través de mi pagina de Github.</p>
-        <ul>
-            </ul>
-        
-    </div>
+        <h3>3. Clasificador de Riesgo en Salud Mental 🧠</h3>
+        <p>Proyecto de Clustering (K-Means) para segmentar países en grupos de riesgo basados en tasas de suicidio y probabilidad de muerte por enfermedades crónicas, creando un clasificador para toma de decisiones médicas.</p>
+        
+        <a href="https://spuhuvkb2cayykd4jhdten.streamlit.app/" target="_blank" class="project-link" style="background-color: #d81b60;">
+            🚀 Ver Aplicación Web (Clasificador)
+        </a>
+        
+        <a href="https://github.com/alanysmichelle812-commits/Analisis_Salud_Mental/tree/main" target="_blank" class="project-link" style="background-color: #4a4a4a;">
+            Ver Código y Modelos en GitHub
+        </a>
+        
+        <hr>
+        
+                <h3>4. Clasificador de Celebridades DL ✨</h3>
+        <p>Clasificador de imágenes de celebridades desarrollado con **Deep Learning**. El código fuente y el modelo están alojados en GitHub, y una demostración interactiva está disponible en Hugging Face Spaces.</p>
+        
+        <a href="https://huggingface.co/spaces/Alanysss/clasificador-celebridades-final" target="_blank" class="project-link" style="background-color: #ff3e3e;">
+            🤖 Ver Demo en Hugging Face
+        </a>
+        
+        <a href="https://github.com/alanysmichelle812-commits/Clasificador-Celebridades-DL/tree/main" target="_blank" class="project-link" style="background-color: #17a2b8;">
+            Ver Código en GitHub
+        </a>
+        
+        <hr>
+                <h2> Habilidades Clave y en progreso</h2>
+        <ul>
+            <li>Machine Learning: Scikit-learn, Random Forest, Regresión, Clasificación, Clustering (K-Means).</li>
+            <li>Análisis de Datos:Python, Pandas, NumPy, EDA.</li>
+            <li>Desarrollo: Streamlit, GitHub Pages, HTML, CSS.</li>
+        </ul>
+        
+        <h2> Contacto</h2>
+        <p>Puedes seguir mi progreso y contactarme a través de mi pagina de Github.</p>
+        <ul>
+            </ul>
+        
+    </div>
 </body>
 </html>
